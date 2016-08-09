@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Window Watcher for Chrome",
+  "description": "Window Watcher for Chrome it's a extension that shows the size of the window without working directly with the inspector or other developer tools.",
+  "homepage_url": "https://github.com/sergiobarriel/window-watcher-for-chrome",
+  "version": "1.0.0",
+  "content_scripts": [ {
+    "run_at" :"document_start",
+    "matches": ["<all_urls>"],
+    "js": [ "js/lib/jquery-2.2.4.min.js", "js/window-watcher-config.json", "js/window-watcher-for-chrome.js" ]
+    } ],
+  "background": {
+    "scripts": [ "js/lib/jquery-2.2.4.min.js", "js/window-watcher-config.json", "js/window-watcher-for-chrome.js" ],
+    "persistent": true
+  }
+}

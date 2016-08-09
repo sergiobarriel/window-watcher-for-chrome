@@ -1,0 +1,29 @@
+config = {
+    "watcher": {
+        "id": "window-watcher",
+        "class": "window-watcher",
+        "speed": 100,
+        "time": {
+            "default": 2000,
+            "onLoad": 2000,
+            "onResize": 4000
+        },
+        "style": {
+            "position": "fixed",
+            "display": "none",
+            "top": "0px",
+            "right": "0px",
+            "background-color": "#000",
+            "color": "#fff",
+            "font-family": "monospace",
+            "padding": "5px 10px",
+            "font-size": "14px",
+        },
+        "breakpoints": {
+            "xs": 480,
+            "sm": 768,
+            "md": 992,
+            "lg": 1200
+        }
+    }
+};
