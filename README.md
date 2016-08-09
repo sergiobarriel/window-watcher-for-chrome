@@ -11,8 +11,6 @@ Just download "window-watcher-for-chrome" folder and go to **chrome://extensions
 
 Click into **Load unpacked extension** and indicate "window-watcher-for-chrome" folder.
 
-![screentshot](http://i.imgur.com/pPxTtYS.png)
-
 Now, when you load or resize the page, you see the size on the top right.
 
 ![screentshot](http://i.imgur.com/7pyxHSH.png)
