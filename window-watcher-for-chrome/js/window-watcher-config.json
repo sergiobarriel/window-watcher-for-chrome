@@ -18,7 +18,7 @@ config = {
             "font-family": "monospace",
             "padding": "5px 10px",
             "font-size": "14px",
-            "z-index": 999",
+            "z-index": "999",
         },
         "breakpoints": {
             "xs": 480,
