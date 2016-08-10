@@ -6,7 +6,7 @@
 var windowwatcher;
 var timeOutId;
 var config;
-var breackPoints;
+var breakPoints;
 
 $(document).ready(function(){
 
