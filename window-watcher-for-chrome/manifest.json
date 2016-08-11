@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "version": "1.0.3",
-  "version_name": "beta",
+  "version_name": "beta 1.0.3",
   "name": "Window Watcher for Chrome",
   "short_name": "Window Watcher",
   "description": "Window Watcher for Chrome it's a extension that shows the size of the window.",
