@@ -16,4 +16,4 @@ In the next versions it will be possible to customize all parameters of the exte
 1.0
 
 ### **Contact**
-You can contact me via Twitter [@s3rgiobc](https://twitter.com/sergiobarriel)
+You can contact me via Twitter [@sergiobarriel](https://twitter.com/sergiobarriel)
