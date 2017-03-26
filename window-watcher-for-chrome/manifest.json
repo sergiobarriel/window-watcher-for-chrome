@@ -1,19 +1,20 @@
 {
-  "manifest_version": 2,
-  "version": "1.0.3",
-  "version_name": "beta 1.0.3",
-  "name": "Window Watcher for Chrome",
-  "short_name": "Window Watcher",
-  "description": "Window Watcher for Chrome it's a extension that shows the size of the window.",
-  "homepage_url": "http://sergiobarriel.github.io/window-watcher-for-chrome/",
-  "author": "Sergio Barriel",
-  "content_scripts": [ {
-    "run_at" :"document_start",
-    "matches": ["<all_urls>"],
-    "js": [ "js/lib/jquery-2.2.4.min.js", "js/window-watcher-config.json", "js/window-watcher-for-chrome.js" ]
+    "manifest_version": 2,
+    "version": "2.0.0",
+    "version_name": "2.0.0",
+    "name": "Window Watcher for Chrome",
+    "short_name": "Window Watcher",
+    "description": "Window Watcher for Chrome it's a extension that shows the size of the window.",
+    "homepage_url": "http://sergiobarriel.github.io/window-watcher-for-chrome/",
+    "author": "Sergio Barriel",
+    "content_scripts": [ {
+        "run_at" :"document_start",
+        "matches": ["<all_urls>"],
+        "js": [ "js/wwfc.config.json", "js/wwfc.js" ]
     } ],
-  "background": {
-    "scripts": [ "js/lib/jquery-2.2.4.min.js", "js/window-watcher-config.json", "js/window-watcher-for-chrome.js" ],
-    "persistent": true
-  }
+    "background": {
+        "scripts": [ "js/wwfc.config.json", "js/wwfc.js" ],
+        "persistent": true
+    },
+    "permissions": [ "storage" ]
 }
