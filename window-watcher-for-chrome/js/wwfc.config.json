@@ -1,4 +1,4 @@
-config = {
+initialConfig = {
     "watcher": {
         "id": "window-watcher",
         "class": "window-watcher",
