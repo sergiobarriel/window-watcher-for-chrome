@@ -16,5 +16,8 @@
         "scripts": [ "js/wwfc.config.json", "js/wwfc.js" ],
         "persistent": true
     },
-    "permissions": [ "storage" ]
+    "permissions": [ "storage" ],
+    "icons": {
+        "48": "icons/icon2.png"
+    }
 }
