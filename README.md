@@ -13,7 +13,7 @@ Now, when you load or resize the page, you see the size on the top right.
 In the next versions it will be possible to customize all parameters of the extension, such as speed, time or color. As you like!
 
 ### **Version**
-1.0
+2.0
 
 ### **Contact**
 You can contact me via Twitter [@sergiobarriel](https://twitter.com/sergiobarriel)
