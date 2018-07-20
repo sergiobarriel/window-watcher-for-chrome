@@ -1,5 +1,3 @@
-![](https://github.com/sergiobarriel/window-watcher-for-chrome/blob/master/img/image.png)
-
 ### **Description**
 **Window Watcher for Chrome** it's a extension that shows the size of the window without working directly with the inspector or other developer tools.
 
